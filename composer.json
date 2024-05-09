@@ -1,18 +1,18 @@
 {
-    "name": "kucha/ueditor",
+    "name": "zkf/ueditor",
     "description": "desc",
     "license": "MIT",
     "authors": [
         {
-            "name": "BigKuCha",
-            "email": "nevermore1989@vip.qq.com"
+            "name": "zkf",
+            "email": "kf@zhongkefu.com.cn"
         }
     ],
     "minimum-stability": "stable",
     "require": {},
     "autoload": {
         "psr-4": {
-            "kucha\\ueditor\\": ""
+            "zkf\\ueditor\\": ""
         }
     }
 }

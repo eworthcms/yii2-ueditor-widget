@@ -1,5 +1,5 @@
 <?php
-namespace kucha\ueditor;
+namespace zkf\ueditor;
 
 
 class Uploader

@@ -1,6 +1,6 @@
 <?php
 
-namespace kucha\ueditor;
+namespace zkf\ueditor;
 
 use Yii;
 use yii\base\Action;
