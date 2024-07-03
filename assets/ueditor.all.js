@@ -28678,7 +28678,7 @@ UE.ui = baidu.editor.ui = {};
                         domUtils.un(editor.document, "click", arguments.callee);
                     }
                     domUtils.on(editor.document, "click", countFn);
-                    editor.ui.getDom('wordcount').innerHTML = editor.getLang("wordCountTip");
+                    editor.ui.getDom('wordcount').innerHTML = editor.options.wordCountTip || editor.getLang("wordCountTip");
                 }
                 editor.ui._scale();
                 if (editor.options.scaleEnabled) {
